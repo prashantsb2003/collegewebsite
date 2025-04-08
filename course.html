@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Development of College Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                   
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+<section class="course">
+    <h1>FIND YOUR PATHWAY</h1>
+    <h3>Secure the Degree you Want</h3>
+    <p>The Institution has been consistently rated high, ranking within 50, among the top private engineering colleges in the country</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Undergraduate</h3>
+            <p>Computer Science & Engineering</p>
+            <p>Electrical & Electronics Engineering</p> 
+            <p>Electronics & Communication Engineering</p>    
+            <p> Information Science & Engineering</p>
+            <p> Mechanical Engineering</p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <a href="https://sdmcet.ac.in/ug/"><div class="Know">Know More</div></a>
+        </div>
+        <div class="course-col">
+            <h3>Postgraduate</h3>
+            <p>Computer Aided Design of Structures</p> 
+      <p>Computer Science & Engineering</p> 
+      <p>Power Systems Engineering
+      </p> 
+      <p>Digital Electronics
+      </p> 
+      <p>Electric Vehicle Technology
+      </p>
+      <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+      <a href="https://sdmcet.ac.in/pg/"><div class="Know">Know More</div></a>
+        </div>
+        <div class="course-col">
+            <h3>MBA</h3>
+            <p>
+                The MBA department was conceptualized in 2008, as the brainchild of Rev.President Padma Vibhushan Dr.D.Veerendra Heggade has ever since carved an applaudable history for itself. We are advancing the SDM tradition of excellence in Management Education through the highest quality programs in teaching.</p> 
+                <p>
+                </p>
+                <p>
+                </p>
+                <a href="https://sdmcet.ac.in/pg/mba"><div class="Know">Know More</div></a>
+        </div>
+        <div class="course-col">
+            <h3>Ph.D</h3>
+            <p>
+                Research is “the careful, systematic, patient study and investigation in some field of knowledge, undertaken to discover or establish facts or principles. Science and Engineering research conducted in academic institutions, industry and standard laboratories plays a critical role in raising our standard of living, creating jobs, improving health, and providing for National security. </p> 
+                <a href="https://sdmcet.ac.in/research-development/"><div class="Know">Know More</div></a>
+        </div>
+    </div>
+</section>
+    
+<!---------- Facilities ---------->
+    
+  
+<section class="facility">
+    <h1>Our Facilities</h1>
+    <p>College facilities: Libraries, labs, classrooms, housing, dining, recreation, health, technology, career, study.</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="./images/lib1">
+                <h3>World Class Library</h3>
+                <p>A college library is a dedicated space within a college or university campus that serves as a hub of knowledge and information.</p>
+            </div>
+            <div class="facility-col">
+                <img src="./images/LAB.avif">
+                <h3>Best labarotory</h3>
+                <p>Laboratories in college support experiments so that practical knowledge can be expanded.</p>
+            </div>
+            <div class="facility-col">
+                <img src="./images/teachers.jpg">
+                <h3>Best Teachers</h3>
+                <p>Over 160+ experienced faculties.</p>
+            </div>
+        </div>
+</section>
+
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Shri Dharmasthala Manjunatheshwara College of Engineering & Technology, Dharwad <br>was established in the year 1979 under the flagship of SDME Society and has grown into one of the nationally acclaimed premier engineering institutions in the country.<br>
+
+        The Institution has been consistently rated high, ranking within 50, among the top private engineering colleges in the country.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/SdmCollegeofEngineering/"><i class="fa fa-facebook"></i></a>
+        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fisdmcet"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/sdm_media_official/"><i class="fa fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/school/s-d-m-college-of-engg.-&-technology-dharwad/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <a href="#" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> © 2024 SDMCET, All rights reserved</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
